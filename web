@@ -1,0 +1,208 @@
+git add . 
+git commit -m "Initial commit"
+
+git push origin main
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie List</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .movie {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .movie img {
+            width: 200px;
+            height: auto;
+            margin-right: 15px;
+        }
+
+        .movie .info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .movie .info h2 {
+            margin-bottom: 5px;
+        }
+
+        .movie .info p {
+            margin: 5px 0;
+        }
+
+        .movie .links {
+            margin-top: 10px;
+        }
+
+        .movie .links a {
+            display: block;
+            margin-bottom: 5px;
+            text-decoration: none;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Movie List</h1>
+
+    <div class="movie">
+        <img src="images/finding_nemo.jpg" alt="Finding Nemo">
+        <div class="info">
+            <h2>Finding Nemo</h2>
+            <p>2003-05-29 16:00:00</p>
+            <p>Finding Nemo-hd</p>
+            <p>Finding Nemo</p>
+            <p>HD  Trailer  IMDB: 8.2  100 min</p>
+            <p>Overview:</p>
+            <p>Nemo, an adventurous young clownfish, is unexpectedly taken from his Great Barrier Reef home to a dentist's office aquarium. It's up to his worrisome father Marlin and a friendly but forgetful fish Dory to bring Nemo home -- meeting vegetarian sharks, surfer dude turtles, hypnotic jellyfish, hungry seagulls, and more along the way.</p>
+            <p>Released: 2003-05-30</p>
+            <p>Genre: Animation, Family</p>
+            <p>Casts: Albert Brooks, Stephen Root, Ellen DeGeneres, Nicholas Bird, Vicki Lewis</p>
+            <p>Duration: 100 min</p>
+            <p>Country: United States of America</p>
+            <p>Production: Pixar</p>
+            <p>Watch Finding Nemo Online Free</p>
+            <p>Finding Nemo Online Free</p>
+            <p>Where to watch Finding Nemo</p>
+            <p>Finding Nemo movie free online</p>
+            <p>Finding Nemo free online</p>
+            <div class="links">
+                <a href="https://sflix.to/watch-movie/free-finding-nemo-hd-19561.5297674">Watch on Sflix</a>
+                <a href="https://www.youtube.com/watch?v=SPHfeNgogVs">Watch Trailer</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="movie">
+        <img src="images/findin_dory.jpg" alt="Finding Dory">
+        <div class="info">
+            <h2>Finding Dory</h2>
+            <p>2016-06-15 16:00:00</p>
+            <p>Finding Dory-hd</p>
+            <p>Finding Dory</p>
+            <p>HD  Trailer  IMDB: 7.3  97 min</p>
+            <p>Overview:</p>
+            <p>Dory is reunited with her friends Nemo and Marlin in the search for answers about her past. What can she remember? Who are her parents? And where did she learn to speak Whale?</p>
+            <p>Released: 2016-06-16</p>
+            <p>Genre: Adventure, Animation , Comedy , Family</p>
+            <p>Casts: Ellen DeGeneres, Albert Brooks, Hayden Rolence , Ed O'Neill, Diane Keaton</p>
+            <p>Duration: 97 min</p>
+            <p>Country: United States of America</p>
+            <p>Production: Pixar</p>
+            <p>Watch Finding Dory Online Free</p>
+            <p>Finding Dory Online Free</p>
+            <p>Where to watch Finding Dory</p>
+            <p>Finding Dory movie free online</p>
+            <p>Finding Dory free online</p>
+            <div class="links">
+                <a href="https://sflix.to/watch-movie/free-finding-dory-hd-18901.5349631">Watch on Sflix</a>
+                <a href="https://www.youtube.com/watch?v=JhvrQeY3doI">Watch Trailer</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="movie">
+        <img src="images/luca.jpg" alt="Luca">
+        <div class="info">
+            <h2>Luca</h2>
+            <p>2021-06-16 16:00:00</p>
+            <p>9.7</p>
+            <p>Luca-hd</p>
+            <p>Luca</p>
+            <p>HD  Trailer  IMDB: 7.4  95 min</p>
+            <p>Overview:</p>
+            <p>Two young boys experience an unforgettable Italian summer filled with gelato, pasta and endless scooter rides. But all the fun is threatened by a deeply-held secret: they are sea monsters from another world just below the water’s surface.</p>
+            <p>Released: 2021-06-17</p>
+            <p>Genre: Family, Animation, Comedy , Fantasy</p>
+            <p>Casts: Jack Dylan Grazer, Maya Rudolph, Sandy Martin, Emma Berman, Jacob Tremblay</p>
+            <p>Duration: 95 min</p>
+            <p>Country: United States of America</p>
+            <p>Production: Walt Disney Pictures, Pixar</p>
+            <p>Watch Luca Online Free</p>
+            <p>Luca Online Free</p>
+            <p>Where to watch Luca</p>
+            <p>Luca movie free online</p>
+            <p>Luca free online</p>
+            <div class="links">
+                <a href="https://sflix.to/watch-movie/free-luca-hd-70342.4791658">Watch on Sflix</a>
+                <a href="https://moviesjoytv.to/watch-movie/luca-70342.4791658">Watch on MoviesJoyTV</a>
+                <a href="https://www.youtube.com/watch?v=mYfJxlgR2jw">Watch Trailer</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="movie">
+        <img src="images/ratatouille.jpg" alt="Ratatouille">
+        <div class="info">
+            <h2>Ratatouille</h2>
+            <p>2007-06-21 16:00:00</p>
+            <p>9.8</p>
+            <p>Ratatouille-hd</p>
+            <p>Ratatouille</p>
+            <p>HD  Trailer  IMDB: 8.1  111 min</p>
+            <p>Overview:</p>
+            <p>A rat named Remy dreams of becoming a great French chef despite his family's wishes and the obvious problem of being a rat in a decidedly rodent-phobic profession. When fate places Remy in the sewers of Paris, he finds himself ideally situated beneath a restaurant made famous by his culinary hero, Auguste Gusteau. Despite the apparent dangers of being an unlikely - and certainly unwanted - visitor in the kitchen of a fine French restaurant, Remy's passion for cooking soon sets into motion a hilarious and exciting rat race that turns the culinary world of Paris upside down.</p>
+            <p>Released: 2007-06-22</p>
+            <p>Genre: Animation, Comedy, Family , Fantasy</p>
+            <p>Casts: Patton Oswalt , Ian Holm, Lou Romano , Brian Dennehy, Peter Sohn</p>
+            <p>Duration: 111 min</p>
+            <p>Country: United States of America</p>
+            <p>Production: Pixar</p>
+            <p>Watch Ratatouille Online Free</p>
+            <p>Ratatouille Online Free</p>
+            <p>Where to watch Ratatouille</p>
+            <p>Ratatouille movie free online</p>
+            <p>Ratatouille free online</p>
+            <div class="links">
+                <a href="https://sflix.to/watch-movie/free-ratatouille-hd-19398.5297938">Watch on Sflix</a>
+                <a href="https://www.youtube.com/watch?v=NgsQ8mVkN8w">Watch Trailer</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="movie">
+        <img src="images/monsters_inc.jpg" alt="Monsters, Inc.">
+        <div class="info">
+            <h2>Monsters, Inc.</h2>
+            <p>2001-10-31 16:00:00</p>
+            <p>Detail</p>
+            <p>9.5</p>
+            <p>Monsters, Inc.-hd</p>
+            <p>Monsters, Inc.</p>
+            <p>HD  Trailer  IMDB: 8.1  92 min</p>
+            <p>Overview:</p>
+            <p>James Sullivan and Mike Wazowski are monsters, they earn their living scaring children and are the best in the business... even though they're more afraid of the children than they are of them. When a child accidentally enters their world, James and Mike suddenly find that kids are not to be afraid of and they uncover a conspiracy that could threaten all children across the world.</p>
+            <p>Released: 2001-11-01</p>
+            <p>Genre: Animation, Comedy, Family</p>
+            <p>Casts: John Goodman, Billy Crystal, Steve Buscemi, James Coburn, Jennifer Tilly</p>
+            <p>Duration: 92 min</p>
+            <p>Country: United States of America</p>
+            <p>Production: Pixar, Walt Disney Pictures</p>
+            <p>Watch Monsters, Inc. Online Free</p>
+            <p>Monsters, Inc. Online Free</p>
+            <p>Where to watch Monsters, Inc.</p>
+            <p>Monsters, Inc. movie free online</p>
+            <p>Monsters, Inc. free online</p>
+            <div class="links">
+                <a href="https://www.youtube.com/watch?v=6tCxnHCqqxg">Watch Trailer</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
